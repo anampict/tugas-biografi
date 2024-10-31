@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.gambar-profil {
+    flex: 1;
+}
+
+.gambar-profil img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.detail-profil {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.detail-profil h1 {
+    font-size: 24px;
+    margin: 0;
+    color: #00bfa5;
+}
+
+.detail-profil p {
+    font-size: 16px;
+    color: green;
+}
+.detail-profil ul {
+    list-style: none;
+    padding: 0;
+}
+
+.detail-profil ul li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.detail-profil ul li i {
+    color: #00bfa5;
+    margin-right: 10px;
+}
